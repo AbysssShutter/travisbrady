@@ -1,0 +1,25 @@
+#rectangle
+{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    background: #d9d9d9;   
+}
+.txt{
+    text-align: left;
+    font-weight: bold;
+}
+input{
+    margin-left: 10px;
+}
+textarea{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+}
+.button{
+    color: black;
+    background-color: white;
+    margin-left: 50%;
+}

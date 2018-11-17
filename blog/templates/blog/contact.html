@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head link="black" alink="000000" vlink="000000">
+  <title>Contact</title>  
+      <link rel="stylesheet" href="{#'static /css/index.css'#}">  
+      <link rel="stylesheet" href="{#'static /css/contact.css'#}">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <header class="clearfix">
+	<div class="logo">
+        <a href="{# url 'moo:index' #}" style="margin-left: 100px" style="height: 100%; width: auto;"><img src="{%static '/image/logo.png'%}"/></a>
+	</div>
+     <p style="text-align: center;  font-size: 26px; font-weight: 700; margin-left: 500px"> NEXT GENERATION TRANSFORMATION <br/> COACH &amp; SPEAKER </p>
+	<nav>
+		<ul>
+			<li>
+				<b><a href="about.html">About Travis</a>
+				<a href="speaking.html">Speaking</a>
+				<a href="seminars.html">Seminars &amp; Workshop</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+                <a href="book.html">Book Consultation</a></b>
+			</li>
+		</ul>
+	</nav>
+    </header>
+    <section>
+        <div class="columns">
+            <span id="col1">
+                 <div class="column">    
+                   <p class="n1">Contact Travis</p>
+                 </div>
+                 <div class="column">
+                     <img src="{#'static /image/phone.png'#}" class="im" style="margin-left: 7%"/><n3 style="margin-left: 15px">Call:(435)414-6425</n3><br/>
+                </div>
+                <div class="column">
+                    <img src="{#'static /image/email.png'#}" class="im" style="height: 34px; width: auto; margin-left: 29px"/><n3 style="margin-left: 20px">Email:coachbrady01@gmail.com</n3><br/>
+                </div>
+                <div class="column">
+                    <img src="{#'static /image/calendar.png'#}" class="im" style="margin-left: 6%"/><n3 style="margin-left: 13px">Book 1 on 1 Consultation</n3>
+                 </div>
+            </span>
+            <div class="column">
+                <span id="col2">
+                    <img src="{#'static /image/foto.png'#}" style="height: auto; width: auto"/>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <footer style="color: azure; background-color: black">
+        <div id="rectangle">
+            <div class="column">
+                <p style="text-align: right; margin-right: 18%; margin-top: 8px; font-size: 17px">Copyright © 2018· Coach Travis Brady · Built by Ershov Copying</p>
+            </div>
+        </div>                
+    </footer>
+</body>
+
+</html>

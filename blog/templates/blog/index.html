@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head link="black" alink="000000" vlink="000000">
+  <title>Coach Travis Brady &#8211; Next Generation Coach – Next Generation Coach &amp; Speaker</title>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="{% static '/css/index.css' %}">  
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+</head>
+
+<body>
+  <header class="clearfix">
+	<div class="logo" class="column">
+        <a href="{# url 'index' #}" style="margin-left: 100px" style="height: 100%; width: auto;"><img src="{%static '/image/logo.png'%}"/></a>
+	</div>
+      <p style="text-align: center;  font-size: 26px; font-weight: 700; margin-left: 500px"> NEXT GENERATION TRANSFORMATION <br/> COACH &amp; SPEAKER </p>
+	<nav>
+		<ul>
+			<li>
+				<b><a href="{# url 'about' #}">About Travis</a>
+				<a href="{# url 'speaking' #}">Speaking</a>
+				<a href="{# url 'seminars' #}">Seminars &amp; Workshop</a>
+                <a href="{# url 'resources' #}">Resources</a>
+                <a href="{# url 'contact.html' #}">Contact</a>
+                <a href="{# url 'book' #}">Book Consultation</a></b>
+			</li>
+		</ul>
+	</nav>
+    </header>
+    <section>
+        <div class="columns">
+            <div class="column" style="width: 100%; height: 100%; background: url({%static '/image/slideshow/1.jpg'%})">
+                    <iframe width="1060" height="596" src="https://www.youtube.com/embed/zagquANfboU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: 22%"></iframe>
+            </div>
+        </div>    
+        <div class="columns">
+            <div class="column">
+                <img src="{% static '/image/foto.png'%}" style="width: 100%; height: 100%"/>
+            </div>
+            <div class="column">
+                <p class="p1">Next Generation Coach</p><br/>
+                <p class="p2">Travis Brady is the founder of Be <br/>Inspired Coaching and the creator <br/>The Next Generational Coach.<br/><br/>He is a life transformation who <br/>mentors other personal trainers and <br/>coaches in learning Next Generation <br/>Coaching transformational <br/>processes, helping them to build a 6-<br/>figure income each year.</p>
+            </div>
+        </div>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
+        <div style="background: #c0c0c0">
+            <div class="columns">
+                <div class="column">
+                    <p class="p3">Travis Has Been Featured On:</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <img src="{% static '/image/nbc.png'%}" class="BUG1"/>
+                </div>
+                <div class="column">
+                    <img src="{%static '/image/pc.jpg'%}" class="BUG2"/>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <img src="{% static '/image/cbs.png'%}" class="cbs"/>
+                </div>
+                <div class="column">
+                    <img src="{%static '/image/fox.png'%}" class="BUG2"/>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <img src="{%static '/image/abc.png'%}" class="abc"/>
+                </div>
+                <div class="column">
+                    <img src="{%static '/image/5.png'%}" class="five"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="color: azure; background-color: black">
+        <div id="rectangle">
+            <div class="column">
+                <p style="text-align: right; margin-right: 18%; margin-top: 8px; font-size: 17px">Copyright © 2018· Coach Travis Brady · Built by Yershov Copying</p>
+            </div>
+        </div>               
+    </footer>
+</body>
+
+</html>

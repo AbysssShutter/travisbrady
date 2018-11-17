@@ -1,0 +1,12 @@
+.img1{
+    width: 100%;
+    height: auto;
+}
+.txt{
+    text-align: center;
+    font-size: 35px; 
+}
+.button{
+    color: aliceblue;
+    background-color: dodgerblue;
+}

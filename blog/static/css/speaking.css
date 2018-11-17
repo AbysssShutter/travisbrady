@@ -1,0 +1,36 @@
+.button{
+    color: azure;
+    background-color: dodgerblue;    
+}
+.head{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 150px;
+}
+.next1{
+    text-align: left;
+    font-size: 26px;
+    margin-left: 150px;
+}
+.next2{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.f1{
+    width: 70%;
+    height: 100%;
+}
+.h1{
+    font-size: 30px;
+    text-align: left;   
+}
+.it{
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+.it1{
+    font-size: 20px;
+    text-align: left;
+}

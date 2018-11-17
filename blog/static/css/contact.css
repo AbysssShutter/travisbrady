@@ -1,0 +1,32 @@
+p.n1{
+    margin-top: 190px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 35px;
+}
+p.n2{
+    text-align: right; 
+    margin-right: 20%;
+}
+n3{
+    text-align: left;
+    font-size: 20px;
+    line-height: 4;
+    margin-left: 13px;
+}
+img.f1{
+    width: 70%;
+    height: 70%;
+    position: relative;   
+}
+#col1{
+    position: relative;   
+    float: left;
+}
+#col2{
+    position: relative;
+    margin-left: 1%;
+}
+.im{
+     vertical-align: middle;
+}
